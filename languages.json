@@ -2,6 +2,8 @@
     "$schema": "./schema.json",
     "javascript": {
         "name": "JavaScript",
-        "icon": "./javascript.svg"
+        "variants": {
+            "node": "Node"
+        }
     }
 }

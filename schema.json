@@ -8,8 +8,14 @@
         "name": {
             "type": "string"
         },
-        "icon": {
-            "type": "string"
+        "variants": {
+            "type": "object",
+            "patternProperties": {
+                "^.*$": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
         }
       },
       "required": ["name"],
