@@ -1,9 +1,29 @@
 {
     "$schema": "./schema.json",
+    "cpp": {
+        "name": "C++"
+    },
+    "go": {
+        "name": "Go"
+    },
+    "java": {
+        "name": "Java"
+    },
     "javascript": {
         "name": "JavaScript",
         "variants": {
-            "node": "Node"
+            "node": {
+                "name": "NodeJS"
+            }
         }
+    },
+    "python": {
+        "name": "Python"
+    },
+    "rust": {
+        "name": "Rust"
+    },
+    "typescript": {
+        "name": "TypeScript"
     }
 }
