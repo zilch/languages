@@ -10,7 +10,7 @@
         "name": "Java"
     },
     "javascript": {
-        "name": "JavaScript Test",
+        "name": "JavaScript",
         "variants": {
             "node": {
                 "name": "NodeJS"
